@@ -10,15 +10,17 @@
 
 START paycheck_calculator
 
-    TODO: Obtain the required program input.
-
-    IF TODO: Specify the condition for the applicable pay rule.
-        TODO: List the processing steps for the true decision path.
+   hours = float(input())
+    hourly_rate = float(input())
+    overtime = hourly_rate * 1.5
+    pay = hourly_rate * hours + overtime
+    If hours > 40:
+        TODO: multiply hours over 40 by overtime
     ELSE
-        TODO: List the processing steps for the false decision path.
+        TODO: multiply hours by base rate
     ENDIF
 
-    TODO: Output the calculated weekly paycheck.
+    TODO: print(" You worked (hours) hours and made (pay) dollars.")
 
 END paycheck_calculator
 
